@@ -50,42 +50,11 @@ class Calculator
             Regul_calc();
         }
     }
-
+    
+    
     static void Eng_calc()
     {
 
-    }
-
-    static void FizzBuzz()
-    {
-        try
-        {
-            Console.WriteLine("Число: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < number; i++) 
-            {
-                if (number % 15 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (number % 3 == 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else if (number % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else
-                {
-                    Console.WriteLine(number);
-                }
-            }
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine($"Абшибка! ({e})");
-        }
     }
     
     static void Menu() 
